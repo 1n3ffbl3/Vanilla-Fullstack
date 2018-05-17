@@ -17,6 +17,7 @@ This process is surprisingly simple, you might even have fun doing it! But it ca
 * Creating Build Scripts
 * Using Local Modules
 * NPM Scripts
+* Deploying to Heroku
 
 [TOP](#index)
 
@@ -25,7 +26,7 @@ This process is surprisingly simple, you might even have fun doing it! But it ca
 ## Specifications
 
 
-
+(Don't worry about this until later on when you've comfortably built a few projects).
 1. Take all of your Express apps that you are most proud of and host them on a single Heroku deployment as services in a single project.  Users can experience your different application by accessing different base URL extentions (ie. ".com/notes/...", ".com/calculator/..."). 
 2. Write a gulpfile that deletes and reinstalls a local module every time it is modified. 
 3. Include a script in your package.json that runs this script, so someone who simply wants to use your application can clone it and set it up without needing to modify a file.
@@ -44,6 +45,10 @@ NPM Scripts:
 * [Scotch Tutorial](https://scotch.io/tutorials/using-npm-as-a-build-tool)
 * [NPM Build Scripts](https://deliciousbrains.com/npm-build-script/)
 * [NPM as a build tool](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/)
+
+Deploying to Heroku:
+* [Their own tutorial](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
+* [Scotch.io](https://scotch.io/tutorials/how-to-deploy-a-node-js-app-to-heroku)
 
 [TOP](#index)
 
